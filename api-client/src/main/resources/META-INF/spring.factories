@@ -1,2 +1,2 @@
 # spring boot starter
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.lee.project.ApiClientConfig
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.lee.client.ApiClientConfig

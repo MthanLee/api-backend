@@ -3,7 +3,7 @@ server:
   port: 8123
   servlet:
     context-path: /api
-api:
-  client:
-    access-key: jiwenhao
-    secret-key: yanjiusheng
+#api:
+#  client:
+#    access-key: jiwenhao
+#    secret-key: yanjiusheng

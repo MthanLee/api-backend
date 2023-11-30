@@ -4,100 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c6e701b-c136-47ca-8d89-02a34f01ccd2" name="Changes" comment="修改">
-      <change afterPath="$PROJECT_DIR$/api-common/src/main/java/com/lee/common/service/InnerInterfaceInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-common/src/main/java/com/lee/common/service/InnerUserInterfaceInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-common/src/main/java/com/lee/common/service/InnerUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/lee/gateway/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/lee/gateway/filter/CustomGlobalFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-interface/src/main/java/com/lee/apiinterface/controller/NameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/aop/AuthInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/aop/LogInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/config/Knife4jConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/config/MyBatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/controller/AnalysisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/controller/UserInterfaceInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/model/dto/userinterfaceinfo/UserInterfaceInfoAddRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/model/dto/userinterfaceinfo/UserInterfaceInfoQueryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/model/dto/userinterfaceinfo/UserInterfaceInfoUpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/model/enums/InterfaceInfoStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/model/vo/InterfaceInfoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/model/vo/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/provider/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/provider/DemoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/service/UserInterfaceInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/service/impl/UserInterfaceInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/service/impl/inner/InnerInterfaceInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/service/impl/inner/InnerUserInterfaceInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/service/impl/inner/InnerUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/src/test/java/com/lee/server/service/UserInterfaceInfoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-client/src/main/java/com/lee/project/ApiClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-client/src/main/java/com/lee/client/ApiClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-client/src/main/java/com/lee/project/client/ApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-client/src/main/java/com/lee/client/client/ApiClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-client/src/main/java/com/lee/project/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-client/src/main/java/com/lee/client/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-client/src/main/java/com/lee/project/utils/SignUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-client/src/main/java/com/lee/client/utils/SignUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-client/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/api-client/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-common/src/main/java/com/lee/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/lee/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-interface/src/main/java/com/lee/project/ApiInterfaceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-interface/src/main/java/com/lee/ApiInterfaceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-interface/src/main/java/com/lee/project/controller/NameController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-interface/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-interface/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-interface/src/test/java/com.lee.project/ApiInterfaceApplicationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/MyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/annotation/AuthCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/annotation/AuthCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/common/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/common/BaseResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/common/DeleteRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/common/DeleteRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/common/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/common/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/common/IdRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/common/IdRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/common/PageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/common/PageRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/common/ResultUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/common/ResultUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/constant/CommonConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/constant/CommonConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/constant/UserConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/constant/UserConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/controller/InterfaceInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/controller/InterfaceInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/exception/BusinessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/mapper/InterfaceInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/mapper/InterfaceInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/mapper/UserInterfaceInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/mapper/UserInterfaceInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/model/dto/interfaceinfo/InterfaceInfoAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/model/dto/interfaceinfo/InterfaceInfoAddRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/model/dto/interfaceinfo/InterfaceInfoInvokeRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/model/dto/interfaceinfo/InterfaceInfoInvokeRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/model/dto/interfaceinfo/InterfaceInfoQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/model/dto/interfaceinfo/InterfaceInfoQueryRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/model/dto/interfaceinfo/InterfaceInfoUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/model/dto/interfaceinfo/InterfaceInfoUpdateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/model/dto/user/UserAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/model/dto/user/UserAddRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/model/dto/user/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/model/dto/user/UserLoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/model/dto/user/UserQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/model/dto/user/UserQueryRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/model/dto/user/UserRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/model/dto/user/UserRegisterRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/model/dto/user/UserUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/model/dto/user/UserUpdateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/model/entity/InterfaceInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/lee/common/model/entity/InterfaceInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/lee/common/model/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/model/entity/UserInterfaceInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/lee/common/model/entity/UserInterfaceInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/model/enums/InterfaceInfoStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/lee/common/model/enums/InterfaceInfoStatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/model/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/lee/common/model/vo/UserVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/service/InterfaceInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/service/InterfaceInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/service/UserInterfaceInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/service/impl/InterfaceInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/service/impl/InterfaceInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/service/impl/UserInterfaceInfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/lee/project/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/com/lee/server/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/resources/mapper/InterfaceInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/resources/mapper/InterfaceInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/resources/mapper/UserInterfaceInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/resources/mapper/UserInterfaceInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3c6e701b-c136-47ca-8d89-02a34f01ccd2" name="Changes" comment="修改" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,38 +50,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/yubi-backend-master/yubi-backend-master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "E:/yubi-backend-master/yubi-backend-master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -297,7 +205,7 @@
       <workItem from="1699082910254" duration="1079000" />
       <workItem from="1699167222088" duration="13000" />
       <workItem from="1699175925998" duration="23000" />
-      <workItem from="1701321790455" duration="321000" />
+      <workItem from="1701321790455" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <option name="closed" value="true" />
